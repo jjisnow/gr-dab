@@ -74,6 +74,9 @@ This package requires that GNU Radio is already installed.  It
 also depends on some GNU Radio prerequisites, such as Boost and
 cppunit.
 
+If you haven't already installed these, you will also need:
+cmake autoconf swig
+
 A dependency is the FAAD2 library. (ubuntu: sudo apt-get install libfaad-dev, fedora: sudo dnf install faad2-devel)
 
 It also depends on fdk-aac with DAB patches (fdk-aac-dab). You'll find it in
